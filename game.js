@@ -212,7 +212,7 @@ const fly = () => {
 //         console.log(heroHeight)
 //         console.log(build6Height)
 
-//     if (heroTop >= 610 && heroWidth <= build6Width && heroHeight<=build6Height && build6lftie < heroWidth){   //I'm now using different dimensions to check if they've collided. These are more accurate 
+//     if (heroTop >= 545 && heroWidth <= build6Width && heroHeight<=build6Height && build6lftie < heroWidth){   //I'm now using different dimensions to check if they've collided. These are more accurate 
 //          build6.style.animation = "none";
 //           console.log("Dead6")
 //           clearInterval(death)//stops animation
@@ -233,16 +233,16 @@ let imgtimer = setInterval(function(){
     console.log("Skyscrapper approaching")
     imgs++;             
 
-    if(imgs === 3) {                                     
+    if(imgs === 4) {                                     
         document.querySelector(".buid6").src = buildingImgs[1];  
         console.log("image changed succesfully")                   
     }
-    if(imgs === 5) {
+    if(imgs === 6) {
         document.querySelector(".buid6").src = buildingImgs[2];  
         console.log("image changed succesfully")  
      }
 
-     if(imgs === 7) {                                   
+     if(imgs === 9) {                                   
         document.querySelector(".buid6").src = buildingImgs[3];  
         console.log("image changed succesfully") 
      }      
@@ -322,7 +322,7 @@ let imgtimer2 = setInterval(function(){
             document.querySelector(".buid6").src = buildingImgs[4];  
             console.log("image2 changed succesfully") 
         }
-}, 2000);
+}, 3000);
 
 
 //___________________________________________________________________________________________________________________________________
@@ -361,7 +361,7 @@ let death = setInterval(function(){
         console.log(heroHeight)
         console.log(build6Height)
 
-    if (heroTop >= 610 && heroWidth <= build6Width && heroHeight<=build6Height && build6lftie < heroWidth){   //I'm now using different dimensions to check if they've collided. These are more accurate 
+    if (heroTop >= 545 && heroWidth <= build6Width && heroHeight<=build6Height && build6lftie < heroWidth){   //I'm now using different dimensions to check if they've collided. These are more accurate 
          build6.style.animation = "none";
           console.log("Dead6")
           clearInterval(death)//stops animation
@@ -403,7 +403,7 @@ let coinPoints = setInterval(function(){
     const coinlftie= parseInt(window.getComputedStyle(coin).getPropertyValue('left'))
     console.log(coinlftie)
 
- if (heroTop >= 610 && heroWidth >= coinWidth && heroHeight >= coinHeight && coinlftie < -820  && coinlftie < -800 ){
+ if (heroTop >= 545 && heroWidth >= coinWidth && heroHeight >= coinHeight && coinlftie < -820  && coinlftie < -800 ){
     coinStart+= 1
     document.querySelector('#Coins').innerHTML =  "Coins: " + coinStart 
     }
