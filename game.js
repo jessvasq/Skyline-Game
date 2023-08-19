@@ -1,7 +1,3 @@
-//VARIABLES
-
-//________________________________________________________________________________________________________________________________________________________________________________
-
 //BUTTONS
 let userButton = document.querySelector("button.Username");
 let startButton = document.querySelector("button.Start");
