@@ -43,40 +43,39 @@ body {
     justify-content: center;
     height: 800px;
     width: 1800px;
+    /* align-items: flex-end; 
+    justify-content: flex-end; */
     margin: 20px 0px 30px 30px;
     background-image: url("https://static.wixstatic.com/media/4c3267_2eb5ee90a5aa455582466714cfd45854~mv2.jpg");
+    background-size: cover;
+    overflow: hidden;
 } 
 
 
 .hero {
-    height: 300px;
-    width: 480px;
+    height: 200px;
+    width: 300px;
     position: absolute;
-    left: 70px;
+    left: 20px;
     align-items: flex-start;
-    top: 65%;
-   
-}
-/* 
-h3 {
-    font-size: 25px;
-    color: #501b1b;
-    text-shadow: 1px 1px 1px  #fff5b8;
-    margin: 10px 400px 20px -400px;
-} */
-
-h1#name {
-    position: absolute;
-    margin: -80px 0px 0px 840px;
-    text-align: right;
-    font-size: 15px;
+    top: 80%;
 }
 
-/* div#text{
-    margin: 50px 10px 0px 150px;
-    text-align: center;
-} */
+.buid6 {
+    height: 500px;
+    width: 320px;
+    align-items: flex-end;
+    animation: img1 6s infinite; 
+    top: 40%;
+}
 
+
+#name {
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 1px 1px 1px white;
+    margin-left: -110px;
+}
 
 button {
     font-family: 'Permanent Marker', cursive;
@@ -103,26 +102,110 @@ button:hover {
     margin-left: 100px;
 }
 
+img{
+    display: block;
+    position: relative;
+
+}
 
 .coin {
     height: 80px;
     width: 80px;
     margin-top: 30%;
     margin-left: 96%;
-    /* animation: img1 4s infinite;   */
+    animation: img1 4s infinite;   
 }
 
-.metrics{
+/* .metrics{
     color: #e8ea5d;
     font-size: 25px;
     text-shadow: 1px 1px 1px  #fff5b8;
     margin: -820px 0px 20px 80px;
     display: flex;
-}
+} */
 
 #Time {
     margin-left: 1480px;
 }
+
+
+
+/* 
+.buid1 {
+    height: 350px;
+    width: 110px;
+    top: 300px; 
+    margin-right: 100PX;
+    align-items: flex-end;
+    animation: img 4s infinite; 
+}
+
+
+.buid2 {
+    height: 150px;
+    width: 100px;
+    margin: 0px 150px -15px 180px;
+    animation: imgMove1 18s linear infinite forwards; 
+}
+.buid3 {
+    height: 200px;
+    width: 250px;
+    margin: 0px 150px -30px 180px;
+    animation: imgMove1 18s linear infinite forwards; 
+}
+.buid4 {
+    height: 150px;
+    width: 100px;
+    margin: 10px 150px -32px 150px;
+    animation: imgMove1 18s linear infinite forwards; 
+}
+
+.buid5 {
+    height: 200px;
+    width: 250px;
+    margin: 10px 120px -2px 150px;
+    align-items: flex-end;
+    animation: imgMove1 11s linear infinite forwards; 
+
+} */
+
+
+
+/* .buid7 {
+    height: 150px;
+    width: 100px;
+    margin: 10px 110px -15px 130px;
+    align-items: flex-end;
+    animation: imgMove1 11s linear infinite forwards; 
+
+}
+
+.buid8 {
+    height: 100px;
+    width: 200px;
+    margin: 10px 100px -35px 110px;
+    align-items: flex-end;
+    animation: imgMove1 11s linear infinite forwards; 
+
+}
+
+.buid9 {
+    height: 350px;
+    width: 300px;
+    margin: 10px 100px -120px 80px;
+    align-items: flex-end;
+    animation: imgMove1 11s linear infinite forwards; 
+}
+
+.buid10 {
+    height: 200px;
+    width: 50px;
+    margin: 10px 80px -60px 80px;
+    align-items: flex-end;
+    animation: imgMove1 11s linear infinite forwards; 
+} */
+
+
 /* button.Start {
     border-radius: 500px;
     background: #837777;
@@ -246,33 +329,25 @@ button:active {
 }
 
 
-@keyframes img {
-    0% {left: 970px}
-    100% {left: -100px}
-} 
 
 
+ */
 
-@keyframes img {
-    0% {left: 970px}
-    100% {left: -100px}
-} 
+
 
 
 @keyframes img1 {
-    0% {left: 970px}
-    100% {left: -1100px}
+    0% {left: 2900px}
+    100% {left: -200px}
 } 
 
 
-@keyframes fly {
-    0% {top: 300px;}
+ @keyframes fly {
+    0% {top: 400px;}
     300% {top: 100px;}
-    70% {top: 100px;}
+    70% {top: 400px;}
     100% {top: 300px;}
 }   
-
-
 
 .fly {
     animation: fly 20s;
@@ -281,12 +356,11 @@ button:active {
 
 
 .move {
-
   animation: img 1s infinite; 
-
 }
+
 .move {
     animation: imgMove 11s infinite reverse; 
 }
-    */
+   
 
