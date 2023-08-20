@@ -781,7 +781,7 @@ let death = setInterval(function(){
 
         // && heroHeight<=build6Height && build6lftie < heroWidth
 
-    if (heroTop >= 793  && heroWidth >= build6Width && heroHeight<=build6Height && build6lftie < heroWidth){   // using different dimensions to check if they've collided. These are more accurate 
+    if (heroTop >= 793  && heroWidth <= build6Width && heroHeight <= build6Height && build6lftie < heroWidth){   // using different dimensions to check if they've collided. These are more accurate 
          build6.style.animation = "none";
           console.log("Dead6")
           clearInterval(death)//stops animation
@@ -800,8 +800,6 @@ let death = setInterval(function(){
 //          alert("Superman has died!!")
 //        } 
 //    }, 2000);
-
-
 
 
 //______________________________________________________________________________________________________________________________________________________-
