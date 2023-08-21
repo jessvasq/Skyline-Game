@@ -113,227 +113,28 @@ img{
     width: 80px;
     margin-top: 30%;
     margin-left: 96%;
-    animation: img1 4s infinite;   
+    animation: coin 4s infinite;   
 }
 
-/* .metrics{
+.coin1{
+    height: 80px;
+    width: 80px;
+    margin-top: -10%;
+    margin-left: 96%;
+    animation: coin1 8s infinite;   
+}
+
+.metrics{
     color: #e8ea5d;
     font-size: 25px;
     text-shadow: 1px 1px 1px  #fff5b8;
     margin: -820px 0px 20px 80px;
     display: flex;
-} */
+}
 
 #Time {
     margin-left: 1480px;
 }
-
-
-
-/* 
-.buid1 {
-    height: 350px;
-    width: 110px;
-    top: 300px; 
-    margin-right: 100PX;
-    align-items: flex-end;
-    animation: img 4s infinite; 
-}
-
-
-.buid2 {
-    height: 150px;
-    width: 100px;
-    margin: 0px 150px -15px 180px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-.buid3 {
-    height: 200px;
-    width: 250px;
-    margin: 0px 150px -30px 180px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-.buid4 {
-    height: 150px;
-    width: 100px;
-    margin: 10px 150px -32px 150px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-
-.buid5 {
-    height: 200px;
-    width: 250px;
-    margin: 10px 120px -2px 150px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-} */
-
-
-
-/* .buid7 {
-    height: 150px;
-    width: 100px;
-    margin: 10px 110px -15px 130px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-}
-
-.buid8 {
-    height: 100px;
-    width: 200px;
-    margin: 10px 100px -35px 110px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-}
-
-.buid9 {
-    height: 350px;
-    width: 300px;
-    margin: 10px 100px -120px 80px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-}
-
-.buid10 {
-    height: 200px;
-    width: 50px;
-    margin: 10px 80px -60px 80px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-} */
-
-
-/* button.Start {
-    border-radius: 500px;
-    background: #837777;
-    box-shadow: inset 12px 12px 24px #6d6363,
-                inset -12px -12px 24px #998b8b;
-    position: absolute;
-    margin: 10px 10px 10px 900px; 
-    text-align: right;
-    padding: 10px
-}
-
-
-button.Restart{
-    border-radius: 500px;
-    background: #837777;
-    box-shadow: inset 12px 12px 24px #6d6363,
-                inset -12px -12px 24px #998b8b;
-    position: absolute;
-    margin: 500px 0px 0px 480px;
-    padding: 10px;
-    text-align: right;
-}
-
-
-button:hover {
-   transform: translateY(-0.5em);
-   background: #fefff0;
-  }
-  
-
-button:active {
-   transform: translateY(0.2);
-  }
-
-
-.buid1 {
-    height: 350px;
-    width: 110px;
-    top: 300px; 
-    margin-right: 100PX;
-    align-items: flex-end;
-    animation: img 4s infinite; 
-}
-
-
-.buid2 {
-    height: 150px;
-    width: 100px;
-    margin: 0px 150px -15px 180px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-.buid3 {
-    height: 200px;
-    width: 250px;
-    margin: 0px 150px -30px 180px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-.buid4 {
-    height: 150px;
-    width: 100px;
-    margin: 10px 150px -32px 150px;
-    animation: imgMove1 18s linear infinite forwards; 
-}
-
-.buid5 {
-    height: 200px;
-    width: 250px;
-    margin: 10px 120px -2px 150px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-}
-
-.buid6 {
-    height: 200px;
-    width: 130px;
-    top: 40px;
-    align-items: flex-end;
-    animation: img 6s infinite; 
-}
-
-
-.buid7 {
-    height: 150px;
-    width: 100px;
-    margin: 10px 110px -15px 130px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-}
-
-.buid8 {
-    height: 100px;
-    width: 200px;
-    margin: 10px 100px -35px 110px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-
-}
-
-.buid9 {
-    height: 350px;
-    width: 300px;
-    margin: 10px 100px -120px 80px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-}
-
-.buid10 {
-    height: 200px;
-    width: 50px;
-    margin: 10px 80px -60px 80px;
-    align-items: flex-end;
-    animation: imgMove1 11s linear infinite forwards; 
-}
-
-.coin {
-    height: 40px;
-    width: 40px;
-    align-items: flex-end;
-}
-
-
-
-
- */
-
-
 
 
 @keyframes img1 {
@@ -342,10 +143,23 @@ button:active {
 } 
 
 
+@keyframes coin {
+    0% {left: 700px}
+    /* 0% {left: -1690px} */
+    100% {left: -2000px}
+    /* 100% {left: -1900px} */
+} 
+
+
+/* @keyframes coin1 {
+    0% {left: 0px}
+    100% {left: -3000px}
+}  */
+
  @keyframes fly {
     0% {top: 400px;}
     300% {top: 100px;}
-    70% {top: 400px;}
+    40% {top: 400px;}
     100% {top: 300px;}
 }   
 
