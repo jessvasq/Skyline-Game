@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-
+/* RESPONSIVE - LARGE SCREENS */
 body {
     font-family: 'Permanent Marker', cursive;
     font-weight: 500;
@@ -43,8 +43,6 @@ body {
     justify-content: center;
     height: 800px;
     width: 1800px;
-    /* align-items: flex-end; 
-    justify-content: flex-end; */
     margin: 20px 0px 30px 30px;
     background-image: url("https://static.wixstatic.com/media/4c3267_2eb5ee90a5aa455582466714cfd45854~mv2.jpg");
     background-size: cover;
@@ -96,10 +94,15 @@ button:hover {
     color: white;
    }
    
+.startbttn{
+    background: #ff5c5c;
+    color: white;
+}
+
 .buttons{
     display: flex;  
     margin-top: -10px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 img{
@@ -145,16 +148,9 @@ img{
 
 @keyframes coin {
     0% {left: 700px}
-    /* 0% {left: -1690px} */
     100% {left: -2000px}
-    /* 100% {left: -1900px} */
 } 
 
-
-/* @keyframes coin1 {
-    0% {left: 0px}
-    100% {left: -3000px}
-}  */
 
  @keyframes fly {
     0% {top: 400px;}
@@ -166,7 +162,6 @@ img{
 .fly {
     animation: fly 20s;
 }
-
 
 
 .move {
